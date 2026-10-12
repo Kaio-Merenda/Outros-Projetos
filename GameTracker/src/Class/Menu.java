@@ -37,6 +37,7 @@ public void iniciar(){
             atualizarPrioridade();
             break;
         case 6:
+            removerJogo();
             break;
         case 0:
             System.out.println("encerrando programa...");
@@ -186,6 +187,9 @@ private void mudarNotaPessoal(){
 
 private void removerJogo(){
 
+    System.out.println("Digite o nome do jogo que deseja remover: ");
+    String resposta = scanner.nextLine();
+    gameService.removeGame(resposta);
 }
 
 }
