@@ -23,7 +23,7 @@ Em desenvolvimento (Fase 1 - Core Logic e CLI)
 
 ## 🗺️ Roadmap (Próximos Passos)
 A arquitetura atual foi desenhada com baixo acoplamento para facilitar a evolução do sistema. As próximas etapas incluem:
-- [ ] Implementação de um Menu Interativo no console (Scanner).
+- [X] Implementação de um Menu Interativo no console (Scanner).
 - [ ] Migração do projeto para **Spring Boot**.
 - [ ] Transformação do sistema em uma **API RESTful**.
 - [ ] Conexão com banco de dados real (PostgreSQL/MySQL).
