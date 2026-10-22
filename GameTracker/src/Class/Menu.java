@@ -1,7 +1,5 @@
 package Class;
 import Class.Enuns.*;
-import Class.GameService;
-import java.text.BreakIterator;
 import java.util.Scanner;
 
 public class Menu {
@@ -13,7 +11,7 @@ public Menu(GameService gameservice){
     this.scanner = new Scanner(System.in);
 }
 
-//incompleto!
+//loop
 public void iniciar(){
     boolean rodando = true;
 
@@ -49,6 +47,7 @@ public void iniciar(){
         }
     }
 }
+// FUNÇÕES DO MENU
 
 public void exibirPainel(){
     System.out.println("\n===========================");
@@ -63,7 +62,7 @@ public void exibirPainel(){
         System.out.println("0 - Sair");
         System.out.print("Escolha uma opção: ");
 }
-
+// LEITURA DE DADOS INPUTADOS
 private int leropcao(){
     try{
         return Integer.parseInt(scanner.nextLine().trim());

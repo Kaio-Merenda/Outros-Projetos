@@ -38,6 +38,7 @@ public void listLibrary() {
         System.out.println("Horas jogadas: " + index.getPlayedHours());
         System.out.println("Status: " + index.getStatus());
         System.out.println("Prioridade: " + index.getPrioridade());
+        System.out.println("Nota Pessoal: " + index.getNotaPessoal());
         System.out.println("---------------------------------\n");
     }
 }
